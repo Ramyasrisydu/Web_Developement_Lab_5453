@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudu Elements</title>
+	<style type="text/css">
+		p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+#f::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+#ff::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+#ff::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+h1::before {
+  content: url(smiley.gif);
+}
+	</style>
+</head>
+<body>
+	<h1>::first-line Pseudo-element</h1>
+<p id="1">
+	::first-line pseudo-element is used to add a special style to the first line of a text.
+	The following properties apply to the ::first-line pseudo-element:
+
+font properties
+color properties
+background properties
+word-spacing
+letter-spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear
+</p>
+<h1>::first-letter Pseudo-element</h1>
+<div id="f">The ::first-letter pseudo-element is used to add a special style to the first letter of a text.</div>
+<h1>Multiple Pseudo-elements</h1>
+<div id="ff">In the following example, the first letter of a paragraph will be red, in an xx-large font size. The rest of the first line will be blue, and in small-caps. The rest of the paragraph will be the default font size and color:</div>
+<h1>The ::before Pseudo-element</h1>
+</body>
+</html>

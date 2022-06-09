@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS transition-property property</title>
+    <style>
+    .box{
+        background-color: yellow;
+        width: 300px;
+        height: 200px;
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+    }
+ 
+    .box:hover{
+        background-color: orange;
+    }
+    a.highlight:hover {
+       color: #ff0000;
+    }
+    p:first-child {
+       color: blue;
+    }
+    q:lang(no) {
+       quotes: "~" "~";
+    }
+    h2{
+        color: green;
+        text-align: center;
+    }
+    </style>
+</head>
+ 
+<body>
+    <h2>:hover Pseudo-class</h2>
+    <div class="box">
+        My color changes if you hover over me!
+    </div>
+    <h2>highlight:hover Pseudo-class</h2>
+    <center><a href="#" >When you hover over the link in the example, it will change color</a></center>
+    <h2>:first-child pseudo-class</h2>
+    <center><p> matches a specified element that is the first child of another element.<br></p></center>
+    <h2>:lang pseudo-class </h2>
+    <center><p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p></center>
+</body>
+</html>  

@@ -1,0 +1,50 @@
+p::first-line {
+  background-color: yellow;
+}
+#first:link {
+  color: red;
+  width: 300px;
+  padding:  50px;
+}
+#first:visited {
+  color: green;
+  background-color: cyan;
+}
+#first:hover {
+  color: hotpink;
+  background-color: lightgreen;
+}
+#first:active {
+  color: blue;
+  background-color: hotpink;
+}
+#second:link {
+  margin: 5px;
+}
+#third:link {
+  color: red;
+  width: 300px;
+  border: 3px solid green;
+  padding-top: 100px;
+  padding: 50px;
+}
+#third:visited {
+  color: green;
+  background-color: cyan;
+}
+#third:hover {
+  color: hotpink;
+  background-color: lightgreen;
+}
+#third:active {
+  color: blue;
+  background-color: hotpink;
+}
+#fourth:link {
+  color: red;
+  width: 300px;
+  background-color:orangered;
+  padding: 50px;
+  padding-top: 50px;
+  border-color: red;
+}

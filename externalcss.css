@@ -1,0 +1,11 @@
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+p{
+  text-shadow: 2px 2px 5px red;
+}

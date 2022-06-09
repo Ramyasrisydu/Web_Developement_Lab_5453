@@ -1,0 +1,19 @@
+.exp1{
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.5;
+	filter: grayscale(100%);
+	-webkit-box-reflect: below;
+}
+.exp2{
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.exp3{
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity: 0.5;
+	filter: grayscale(100%);
+	-webkit-box-reflect: below;
+}

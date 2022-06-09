@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table form</title>
+</head>
+<body>
+    <form action = "C:\Users\ramya\OneDrive\Pictures\Screenshots\Screenshot (26).png">
+    	<table align="center">
+    	<tr>
+    		<td align="right">Name:&emsp;</td>
+    		<td><input type="text" placeholder="enter name in caps"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Date of birth:&emsp;</td>
+    		<td><input type="date"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Gender:&emsp;</td>
+    		<td>
+   	 			<input type="radio" name="m" id='m'><label for="m">male</label><br>
+                <input type="radio" name='m' id='m'><label for="f">female</label>
+            </td>
+    	</tr>
+    	<tr>
+    		<td align="right">Mobile:&emsp;</td>
+    		<td><input type="tel" placeholder="enter telephone number"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">email:&emsp;</td>
+    		<td><input type="email" placeholder="enter email"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Password:&emsp;</td>
+    		<td><input type="password" placeholder="enter name password"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Specification:&emsp;</td>
+    		<td><select id="dept" required >
+    			  <option>- -select option- -</option>
+                  <option>cse</option>
+                  <option>AI</option>
+                  <option>ECE</option>
+                  <option>MECH</option></select>
+            </td>
+            <td><button type="button" onclick="alert('sorry your option not available')">branch help!</button></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Fav color:&emsp;</td>
+    		<td><input type="color" placeholder="enter name in caps"></td>
+    	</tr>
+    	<td align="right">Hobby:&emsp;</td>
+    	<td><select id="h" size="2" multiple>
+           <option value="book reading">book reading</option>
+           <option value="sing">Singing</option>
+           <option value="dancing">dancing</option>
+           <option value="painting">painting</option>
+        </select></td>
+    	<tr>
+   	 		<td align="right">Feedback:&emsp;</th>
+   	 		<td><textarea name="message" rows="10" cols="30"></textarea></th>
+   	 	</tr><br><br>
+   	 	<tr>
+   	 		<td align="right">&emsp;</td>
+    		<td>&emsp;<input type="checkbox">accept terms and conditions</td>
+    	</tr>
+   	 	<tr>
+   	 		<td align="center" colspan="2"><br><input type="submit" value="Submit">&emsp;&emsp;<input type="reset" value="reset"></td>
+   	 	</tr>
+    	</table>
+    </form>
+</body>
+</html>
