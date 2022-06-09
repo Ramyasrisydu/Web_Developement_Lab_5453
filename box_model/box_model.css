@@ -1,0 +1,69 @@
+.box-1 {
+  color: green;
+  width: 300px;
+  background-color: skyblue;
+  font-size: 30px;
+  padding-right: 100px;
+  border: 10px dashed black;
+  margin-right: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  direction: rtl;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-style: double;
+  text-indent: 50px;
+  text-shadow: 2px 2px 5px red;
+}
+.box-2 {
+  color: white;
+  width: 300px;
+  background-color: pink;
+  font-size: 30px;
+  padding-left: 100px;
+  border: 10px solid black;
+  margin-left: 50px;
+  box-sizing: border-box;
+  text-align: left;
+  text-decoration-line: overline;
+  text-decoration-color: peachpuff;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 5px;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px;
+}
+.box-3 {
+  color: yellow;
+  width: 300px;
+  background-color: dimgrey;
+  font-size: 30px;
+  padding-top: 100px;
+  border: 10px dashed red;
+  margin-top: 50px;
+  box-sizing: content-box;
+  vertical-align: text-top;
+  text-decoration-line: underline;
+  text-decoration-color: aqua;
+  text-decoration-style: dashed;
+  word-spacing: 10px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+.box-4 {
+  color: grey;
+  width: 300px;
+  background-color: lightcyan;
+  font-size: 30px;
+  padding-bottom: 100px;
+  border: 10px solid red;
+  margin-bottom: 50px;
+  box-sizing: content-box;
+  text-align: right;
+  text-decoration-line: overline underline;
+  text-decoration-color: indigo;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  line-height: 1.8;
+  white-space: nowrap;
+  text-shadow: 2px 2px red;
+}

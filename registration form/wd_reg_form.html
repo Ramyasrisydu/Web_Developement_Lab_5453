@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Forms</title>
+	<style>h4{color:red;font-size:20px}</style>
+</head>
+<body align="center">
+   <h4 >Student Registration Form</h4>
+   <form action = "link_rf_log.html">
+    	<table align="center">
+    	<tr>
+    		<td align="right">RegNo:&emsp;</td>
+    		<td><input type="text" placeholder="Enter your RegNo"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Name:&emsp;</td>
+    		<td><input type="text" placeholder="Enter your Name"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Father Name:&emsp;</td>
+    		<td><input type="text" placeholder="Enter your Father Name"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Gender:&emsp;</td>
+    		<td><input type="radio" name="m" id='m'><label for="m">male</label>
+                <input type="radio" name='m' id='m'><label for="f">female</label></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Date of birth:&emsp;</td>
+    		<td><input type="date"></td>
+    	</tr>
+    	<tr>
+    		<td align="right">Languages Knows:&emsp;</td>
+    		<td><input type="checkbox" name="lan" id='l1'>
+    		    <label for="l1">c++</label>
+    		    <input type="checkbox" name="lan" id='l2'>
+    		    <label for="l2">java</label>
+    		    <input type="checkbox" name="lan" id='l3'>
+    		    <label for="l3">c</label><br>
+    		    <input type="checkbox" name="lan" id='l4'>
+    		    <label for="l4">python</label>
+                    <input type="checkbox" name="lan" id='l5'>
+    		    <label for="l5">R</label>
+    		    <input type="checkbox" name="lan" id='l6'>
+    		    <label for="l6">Julla</label>
+    		</td>
+    	</tr>
+    	<tr>
+    		<td align="right">Branch:&emsp;</td>
+    		<td><select id="dept" required >
+    	          <option>Select Branch</option>
+                  <option>cse</option>
+                  <option>IT</option>
+                  <option>AI&DS</option>
+                  <option>AI&ML</option>
+                  <option>EEE</option>
+                  <option>ECE</option>
+                  <option>ME</option>
+                  <option>CE</option>
+              </select>
+            </td>
+    	</tr>
+    	<tr>
+   	        <td align="right">Address:&emsp;</th>
+   	 	<td><textarea name="message" rows="10" cols="30" placeholder="Enter Your Area"></textarea></th>
+   	 	</tr><br><br>
+   	 	<tr>
+   	 		<td align="center" colspan="2"><br><input type="submit" value="Submit">&emsp;&emsp;<input type="reset" value="reset"></td>
+   	 	</tr>
+    	</table>
+    </form>
+</body>
+</html>

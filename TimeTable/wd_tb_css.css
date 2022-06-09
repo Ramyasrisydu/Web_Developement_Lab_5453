@@ -1,0 +1,104 @@
+#os:visited {
+  color: green;
+  background-color: cyan;
+}
+#os:hover {
+  color: hotpink;
+  background-color: lightgreen;
+}
+#os:active {
+  color: blue;
+  background-color: hotpink;
+}
+#dm:visited {
+  color: pink;
+  background-color: palegreen;
+}
+#dm:hover {
+  color: chocolate;
+  background-color: lightgoldenrodyellow;
+}
+#dm:active {
+  color: blanchedalmond;
+  background-color: chartreuse;
+}
+#dbms:visited {
+  color: skyblue;
+  background-color: burlywood;
+}
+#dbms:hover {
+  color: brown;
+  background-color: skyblue;
+}
+#dbms:active {
+  color: bisque;
+  background-color: firebrick;
+}
+#eng:visited {
+  color: darkgray;
+  background-color: plum;
+}
+#eng:hover {
+  color: fuchsia;
+  background-color: orange;
+}
+#eng:active {
+  color: grey;
+  background-color: darkgray;
+}
+#wad:visited {
+  color: darkgray;
+  background-color: plum;
+}
+#wad:hover {
+  color: fuchsia;
+  background-color: lightcyan;
+}
+#wad:active {
+  color: grey;
+  background-color: darkgray;
+}
+#dsp:visited {
+  color: darkgray;
+  background-color: plum;
+}
+#dsp:hover {
+  color: fuchsia;
+  background-color: lightsalmon;
+}
+#dsp:active {
+  color: grey;
+  background-color: darkgray;
+}
+#time{
+  color: blueviolet;
+  background-color: plum;
+}
+#sno{
+  color: hotpink;
+  background-color: palegreen;
+}
+#d{
+  color: brown;
+  background-color: lightgray;
+}
+#m{
+  color: white;
+  background-color: palevioletred; 
+}
+h3 {
+  text-shadow: 2px 2px 5px palevioletred;
+}
+#t{
+  color: green;
+}
+#u{
+  color: purple;
+}
+#v{
+  color: orange;
+}
+#lunch{
+  text-align: ;
+}
+
