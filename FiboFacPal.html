@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Factorial, Fibonacci, Prime, Palindrome numbers in a given range</title>
+  </head>
+  <body align = "center">
+    <script type="text/javascript">
+
+       //factorial of number
+       function fact(){
+         const num = parseInt(prompt("Enter a number"))
+         if(num < 0){
+           document.write("Factorial doesn't exist for negative number")
+         }
+         else if(num == 0){
+           document.write("Factorial of 0 is 1")
+         }
+         else{
+           let fact=1
+           for(var i=1;i<=num;i++){
+             fact *= i
+           }
+           document.write("Factorial of "+num+" is "+fact)
+         }
+       }
+       //fibonacci Series
+       function fib(){
+         const number = parseInt(prompt("Enter the number of terms "))
+         let n1 = 0
+         let n2 = 1
+         document.write("Fibonacci series upto  "+number+" terms is ")
+         for(let i=1;i<=number;i++){
+           document.write(n1 + " ,")
+           nextTerm = n1+n2
+           n1 = n2
+           n2 = nextTerm
+         }
+       }
+
+       //prime or not
+       function prime(){
+                    num1=prompt("Enter the range upto number=");
+                    a=parseInt(num1);
+                    document.write("Prime numbers upto given range is  ");
+                    for(var i=2;i<=a;i++){
+                        var count=0;
+                        for(var j=1;j<=a;j++){
+                            if(i%j==0){
+                                count++;
+                            }
+                        }
+                        if(count ==2){
+                            document.write("<br>" +i);
+                        }
+                    }
+                }
+
+      //palindrome or not
+      function palin(){
+            let number = parseInt(prompt("Enter a Number="));
+            let original = number;
+            let reversed = 0,reminder = 0;
+            while(number!=0){
+              reminder = number%10;
+              reversed = reversed*10+reminder;
+              number = parseInt(number/10);
+            }
+            if(original == reversed){
+              document.write(original+", is a palindrome");
+            }
+            else{
+              document.write(original+", is not a palindrome");
+            }
+      }
+    </script>
+    <input type="button" name="" value="factorial" onclick="fact()"> <br>
+    <br>
+    <input type="button" name="" value="fibonacci" onclick="fib()">
+    <br>
+    <br>
+    <input type="button" name="" value="prime" onclick="prime()">
+    <br>
+    <br>
+    <input type="button" name="" value="palindrome" onclick="palin()">
+  </body>
+</html>
